@@ -1,84 +1,156 @@
+## 📸 Screenshots
 
-# About the project
+### 🏠 Homepage
+![Homepage](public/images/homepage.png)
 
-  <p>A <b>car rental</b> website is an online platform that allows users to rent cars for personal or business use. The website provides an easy-to-use interface for searching, comparing, and reserving cars from a wide selection of vehicles that vary in make, model, size, and price.</p>
+### 🚘 Car Details Page
+![Car Details](public/images/car-details.png)
 
+# 🚗 Car Rental Frontend
 
-<h3>Build with:</h3>
+An intuitive and modern **Car Rental** web application built with **React** and **Sass**.  
+This platform allows users to browse, compare, and reserve cars with ease — perfect for both personal and business use.
 
-» Sass / Scss <br>
-» React JS
+![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)
+![Sass](https://img.shields.io/badge/Styling-SCSS-pink?style=flat&logo=sass)
+![License](https://img.shields.io/badge/License-MIT-green)
 
+---
 
+## ✨ Features
 
-# React Project Setup
+- 🏎️ Explore a wide range of rental cars by model, brand, size, and price
+- 🔍 Easy-to-use search and filter interface
+- 💻 Responsive design for mobile and desktop
+- 🎨 Styled using SCSS for modular and scalable styling
+- ⚡ Fast and interactive UI built with React
 
-This guide provides instructions to set up and run a React project on your local machine. The project also includes Sass as a dependency for styling.
+---
 
-## Prerequisites
+## 🛠️ Built With
 
-Before you begin, ensure that you have the following installed on your machine:
+- **React JS** – Frontend framework for dynamic UI
+- **Sass / SCSS** – Styling with reusable components
+- **JavaScript (ES6+)** – Logic and interactivity
+- **HTML5 + CSS3** – Core web technologies
 
--   Node.js (v12 or later)
--   npm (Node Package Manager, comes with Node.js)
+---
 
-## Installation
+## 🚀 Getting Started
 
-1.  Clone the project repository to your local machine using Git:
-    ```
-     git clone <repository_url>` 
-    ```
-2.  Navigate to the project directory:
-    
-    ```
-     cd <project_directory>
-    ``` 
-    
-3.  Install project dependencies by running the following command:
-    
-    ``` 
-     npm install
-    ```  
-    
+Follow these instructions to set up and run the project on your local machine.
 
-## Usage
+### ✅ Prerequisites
 
-To run the React project locally, follow these steps:
+Ensure you have the following installed:
 
-1.  Start the development server:
+- [Node.js](https://nodejs.org/) (v12 or higher)
+- npm (comes with Node.js)
 
-    ``` 
-     npm start 
-    ``` 
-    This command will compile the project and start a local development server.
-    
-2.  Open your web browser and visit `http://localhost:3000`. The React application should be up and running.
-    
+### 🔄 Installation
 
-## Styling with Sass
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Hemalatha-dot/Car-Rental-Frontend.git
+   ```
 
-This project uses Sass as a preprocessor for CSS. Sass files are located in the `src/styles/styles.sccs` directory. To compile Sass into CSS, follow these steps:
+2. **Navigate into the project directory**:
+   ```bash
+   cd Car-Rental-Frontend
+   ```
 
-1.  Run the following command in your project directory:
-    
+3. **Install all dependencies**:
+   ```bash
+   npm install
+   ```
+
+---
+
+## ▶️ Running the Project
+
+Start the development server:
+
+```bash
+npm start
 ```
- npm run build-css
-``` 
 
+Then visit: [http://localhost:3000](http://localhost:3000)
 
-This command will compile Sass files and generate corresponding CSS files in the `src/styles/styles.sccs` directory.
-    
-2.  Link the generated CSS files in your React components to apply the styles.
-    
+The app will reload automatically as you make changes.
 
-## Additional Scripts
+---
 
-The project includes additional scripts that you can run using the `npm run` command:
+## 🎨 Styling with Sass
 
--   `test`: Run tests for the project.
--   `build`: Build the project for production.
--   `eject`: Eject the project configuration from create-react-app.
+Sass is used for modular, nested styling. Sass files are located in:
 
-## Conclusion
+```
+src/styles/
+```
 
-You should now have the React project set up on your local machine. Feel free to explore and modify the code to meet your requirements. If you encounter any issues, please refer to the project's documentation or seek support from the project's maintainers.
+### To compile Sass manually (if needed):
+
+```bash
+npm run build-css
+```
+
+This will convert your `.scss` files to `.css`.
+
+---
+
+## 📦 Available NPM Scripts
+
+```bash
+npm start        # Run development server
+npm run build    # Build for production
+npm run test     # Run tests
+npm run eject    # Eject CRA config (not recommended unless necessary)
+```
+
+---
+
+## 📁 Project Structure (Simplified)
+
+```
+Car-Rental-Frontend/
+├── public/
+├── src/
+│   ├── components/      # React components
+│   ├── pages/           # Page-level components
+│   ├── styles/          # SCSS styling files
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+```
+
+---
+
+## 📌 TODO (Optional Enhancements)
+
+- ✅ Add car filter by brand, price, or size
+- 🔒 Integrate user authentication
+- 📍 Add map/location-based car search
+- 📱 Improve mobile responsiveness
+
+---
+
+## 🧑‍💻 Author
+
+**Hemalatha-dot**  
+[GitHub Profile](https://github.com/Hemalatha-dot)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgements
+
+- [Create React App](https://create-react-app.dev/)
+- [Sass Official Docs](https://sass-lang.com/guide)

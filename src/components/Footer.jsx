@@ -29,7 +29,7 @@ function Footer() {
               </li>
 
               <li>
-                  Design with ❤️ by Nandan
+                  Design with ❤️ by Hemalatha
               </li>
             </ul>
 
