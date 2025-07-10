@@ -13,7 +13,6 @@ This platform allows users to browse, compare, and reserve cars with ease — pe
 
 ![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)
 ![Sass](https://img.shields.io/badge/Styling-SCSS-pink?style=flat&logo=sass)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -141,12 +140,6 @@ Car-Rental-Frontend/
 
 **Hemalatha-dot**  
 [GitHub Profile](https://github.com/Hemalatha-dot)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
